@@ -1,0 +1,86 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300&display=swap");
+body {
+    background: url(https://wallpapercave.com/wp/wp4286413.jpg) no-repeat top center #11013f;
+    background-size: cover;
+    font-family: "Newsreader", serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+.grid-container {
+    display: grid;
+    width: 94%;
+    max-width: 900px;
+    gap: 50px;
+    margin: 3% auto 2rem auto;
+    grid-template-rows: auto;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item2 {
+    background-color: #8ac1d6;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.container_day {
+    height: 10em;
+    position: relative 
+}
+
+.container_day_text {
+    text-align: center;
+    margin-top: 13%;
+    background: #94b4e1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    width: 60%;
+}
+
+.container_day_text h2{
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.container_day_text p{
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    text-align: center;
+    text-size-adjust: auto;
+    top: 0%;
+    font-size: 20px;
+}
+.container_day_text ul{
+    font-size: 20px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.container_day_text h6 {
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    bottom: 0%;
+    text-align: right;
+    font-size: 10px;
+}
+
