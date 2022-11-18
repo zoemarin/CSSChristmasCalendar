@@ -8,6 +8,15 @@ body {
     flex-direction: column;
   }
 
+.button_1 {
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 2px;
+    font-family: "Newsreader", serif;
+}
+
 .grid-container {
     display: grid;
     width: 94%;
